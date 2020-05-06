@@ -1,0 +1,5 @@
+autocmd BufEnter *.vimconfig :setlocal filetype=vim " treat files ending with .vimconfig as vim files
+
+set relativenumber " show relative line number
+set number " show absolute line number on current line
+syntax on " enable syntax highlighting
