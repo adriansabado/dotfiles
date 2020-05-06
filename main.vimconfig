@@ -3,3 +3,6 @@ autocmd BufEnter *.vimconfig :setlocal filetype=vim " treat files ending with .v
 set relativenumber " show relative line number
 set number " show absolute line number on current line
 syntax on " enable syntax highlighting
+filetype off
+
+source plugins.vimconfig " Separate file for initializing vim-plug and sourcing plugins
