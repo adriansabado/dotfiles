@@ -3,6 +3,14 @@ autocmd BufEnter *.vimconfig :setlocal filetype=vim " treat files ending with .v
 set relativenumber " show relative line number
 set number " show absolute line number on current line
 syntax on " enable syntax highlighting
-filetype off
+
+" reloads the plugin when the filetype of the current buffer is vim
+filetype plugin on
+
+" enable filetype detection for operations that needs filetype info like
+" syntax highlighting
+filetype on
+colorscheme torte " modified colorscheme
 
 source plugins.vimconfig " Separate file for initializing vim-plug and sourcing plugins
+source keybindings.vimconfig " Separate config file for configuring keybindings
