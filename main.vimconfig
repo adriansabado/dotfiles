@@ -12,5 +12,5 @@ filetype plugin on
 filetype on
 colorscheme torte " modified colorscheme
 
-source plugins.vimconfig " Separate file for initializing vim-plug and sourcing plugins
-source keybindings.vimconfig " Separate config file for configuring keybindings
+source ~/.vim/plugins.vimconfig " Separate file for initializing vim-plug and sourcing plugins
+source ~/.vim/keybindings.vimconfig " Separate config file for configuring keybindings

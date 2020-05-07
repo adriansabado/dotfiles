@@ -8,4 +8,9 @@ endif
 call plug#begin('~/.vim/plugged')
 
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+	Plug 'ggreer/the_silver_searcher'
+	Plug 'mileszs/ack.vim'
+	Plug 'tpope/vim-surround'
 call plug#end()
+
+source ~/.vim/PluginConfigs/ag.vimconfig
