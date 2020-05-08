@@ -1,2 +1,8 @@
 nnoremap <C-p> :FZF<CR>		" open new file
 inoremap jk <Esc>		" escape
+nnoremap j :m .+1<CR>==
+nnoremap k :m .-2<CR>==
+inoremap j <Esc>:m .+1<CR>==gi
+inoremap k <Esc>:m .-2<CR>==gi
+vnoremap j :m '>+1<CR>gv=gv
+vnoremap k :m '<-2<CR>gv=gv
