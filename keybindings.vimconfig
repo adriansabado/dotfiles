@@ -1,5 +1,7 @@
 nnoremap <C-p> :FZF<CR>		" open new file
 inoremap jk <Esc>		" escape
+
+" Map alt-j/k to move one line up/down
 nnoremap j :m .+1<CR>==
 nnoremap k :m .-2<CR>==
 inoremap j <Esc>:m .+1<CR>==gi

@@ -9,9 +9,11 @@ call plug#begin('~/.vim/plugged')
 
 	Plug 'junegunn/fzf', { 'dir': '~/.vim/plugged/fzf/', 'do': './install --all' }
 	Plug 'junegunn/fzf.vim'
-	Plug 'ggreer/the_silver_searcher'
-	Plug 'mileszs/ack.vim'
+	Plug 'vim-airline/vim-airline'
+	Plug 'vim-airline/vim-airline-themes'
 	Plug 'tpope/vim-surround'
+	Plug 'sainnhe/sonokai'
 call plug#end()
 
 source ~/.vim/PluginConfigs/ag.vimconfig
+source ~/.vim/PluginConfigs/airline.vimconfig
